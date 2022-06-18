@@ -1,0 +1,11 @@
+﻿HBIT colors
+
+Bitcoin orange: #f2a900 RGB: 242, 169, 0
+Hive red: #E31337
+Hive black: #212529
+
+
+Text for HBIT:
+https://fontmeme.com/pixel-fonts/
+font: 8 Bit Madness
+font: KA1 (for a drop shadow)
