@@ -15,35 +15,31 @@
             <link rel="stylesheet" href="css/layouts/side-menu.css">
         <!--<![endif]-->
 
+<!-- Increase image size when mouseover hover -->
 <style>
-img{
-	height: 25px;
-	width: 25px;
-}
-img:hover{
-	height: 50px;
-	width: 50px;
-}
-
     table {
-    table-layout:fixed;
-    margin:auto;
-    width:550px;
+        padding: 0;
+        margin: 50px 20px;
+        list-style: none;
     }
-    td {
-    width:25px;
-    height:25px;
-    background:url(https://files.peakd.com/file/peakd-hive/crrdlx/AJbhCvCk1hNVH3yRz3e3x4wXGHroMpMyZAYz8qDMGkRoaBMEnEfQFttsMeDoynJ.png) center no-repeat;
-    transition:0.25s;
-    box-shadow:inset 0 0 0 2px;
+    table {
+        margin: 0px;
+        display: inline-block;
     }
-    td:hover {
-    background-size:  100% 100%;
-    transform:scale(2.2,2.2);
-    transform-origin:center;
+    table a {
+        padding: 0px;
+        display: inline-block;      
+        border: 0px solid #f2f2f2;
     }
-    body {
-    text-align:center;
+    table a img {
+        width: 25px;
+        height: 25px;
+        display: block;
+    }
+    table a:hover img {
+        transform: scale(2.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 </style>
 </head>
 <body>
@@ -73,7 +69,7 @@ img:hover{
 
     <div id="main">
         <div class="header">
-            <h1>HBITLAND</h1>
+            <img src="images/logos/hbitland-shadow.png" width="400px">
             <h2>Welcome to fabulous HBITLAND.</h2>
         </div>
 
@@ -94,7 +90,9 @@ img:hover{
             <p>
                 HBITLAND v2.0...we'll see where it goes.
             </p>
+
 <!-- Below is the HBITLAND 2D grid -->
+<center>
 <table class="center">
     <tr id="row-1">
         <td id="plot01"><img src="images/plotnumbers/plot01.png"></td>
@@ -198,9 +196,9 @@ img:hover{
         <td id="plot83">&nbsp;<img src="images/plotnumbers/plot83.png"></td>
         <td id="plot84">&nbsp;<img src="images/plotnumbers/plot84.png"></td>
         <td id="plot85">&nbsp;<img src="images/plotnumbers/plot85.png"></td>
-        <td id="plot86">&nbsp;<img src="images/plotnumbers/plot86.png"></td>
-        <td id="plot87">&nbsp;<a href="https://peakd.com/hbit/@hivebits/two-quickies-commands-and-whales" target="_blank"><img src="images/logos/hbit_whale_black_white.png"></a></td>
-        <td id="plot88">&nbsp;<a href="https://peakd.com/hive/@hivebits/about" target="_blank"><img src="images/logos/hbit-logo2-100.gif"></a></td>
+        <td id="plot86">&nbsp;<a href="https://peakd.com/@crrdlx" target="_blank"><img src="images/plotimg/plot86-crrdlx-8bit-whitebg.jpg"></a></td>
+        <td id="plot87">&nbsp;<a href="https://peakd.com/hbit/@hivebits/two-quickies-commands-and-whales" target="_blank"><img src="images/plotimg/plot87-hbit_whale_black_white.png"></a></td>
+        <td id="plot88">&nbsp;<a href="https://peakd.com/hive/@hivebits/about" target="_blank"><img src="images/plotimg/plot88-hbit-logo2-100.gif"></a></td>
         <td id="plot89">&nbsp;<img src="images/plotnumbers/plot89.png"></td>
         <td id="plot90">&nbsp;<img src="images/plotnumbers/plot90.png"></td>
     </tr>
@@ -217,6 +215,7 @@ img:hover{
         <td id="plot100">&nbsp;<img src="images/plotnumbers/plot100.png"></td>
     </tr>
 </table>
+</center>
         </div>
     </div>
 </div>
